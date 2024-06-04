@@ -1,0 +1,47 @@
+.section-2
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top:56px;
+    padding-bottom:56px;
+    text-align: center;
+}
+ 
+.section-2 .service-header h1
+{
+    font-size: 30px;   
+    color: #0A0A0A;
+}
+.section-2 .service-header p
+{
+    font-size: 16px;
+    color: #747474;
+}
+.section-2 .service-details .service-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    padding: 20px;
+    justify-content: center;
+    gap: 55px;
+    /* align-items: center; */
+}
+
+.service-details .service-cards .service-card .service-img img
+{
+    width: 57;
+    height: 57;
+}
+.service-details .service-cards .service-card .service-desc
+{
+    width: 355px;
+    margin-top: 30px;
+    padding: 0px 30px 20px;
+}
+.service-details .service-cards .service-card .service-desc h3
+{
+    font-size: 21px;
+    color: #383838;
+    font-family: "Jost",sans-serif;
+}

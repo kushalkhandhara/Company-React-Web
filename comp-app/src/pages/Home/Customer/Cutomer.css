@@ -1,0 +1,24 @@
+.customer-section
+{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom:56px;
+}
+.customer-section .customer-header 
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Jost",sans-serif;
+    font-weight:700;
+}
+
+
+.slick-slide >div
+{
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 30px;
+}

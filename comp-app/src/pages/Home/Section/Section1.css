@@ -1,0 +1,78 @@
+.section1
+{
+    width: 100%;
+    overflow: hidden;
+    padding:56px 0px;
+    /* align-items: center; */
+}
+
+.section1 .homeImg
+{
+    height: 710px;
+    width: 690px;
+    object-fit: cover;
+}
+.section1 .right-side
+{
+    width: 600px;
+}
+.section1 .right-side .desc
+{
+    padding: 0px 45px;
+    line-height: 2;
+
+}
+.section1 .right-side .desc h2
+{
+    font-family: "Jost",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section1 .right-side .desc p
+{
+    font-family: "Jost",sans-serif;
+    font-size: 18px;
+}
+.section1 .right-side .desc button
+{
+    background-color: #4275dc;
+    color: white;
+    padding: 7px;
+    border-radius: 24px;
+    font-weight: 600;
+    font-family: "Jost",sans-serif;
+    border: none;
+    margin-top: 12px;
+    transition: 1s;
+    width: 120px;
+}
+
+@media (max-width: 900px) 
+{
+    .section1
+    {
+        flex-direction: column;
+        /* width: 100%; */
+        /* overflow: hidden; */
+        padding:56px 0px;
+        /* align-items: center; */
+    }
+    .section1 .main
+    {
+        flex-direction: column;
+    }
+    .section1 .homeImg
+    {
+        display: none;
+    }
+    .section1 .right-side
+    {
+        width: auto;
+    }
+    .section1 .right-side .desc
+    {
+        padding: 0px 30px;
+        line-height: 1.5;
+    }
+
+}

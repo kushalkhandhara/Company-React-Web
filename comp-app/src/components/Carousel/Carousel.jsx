@@ -15,7 +15,7 @@ export default function Carousel1() {
             <img src={FirstImage} alt="" className="carousel-img img-fluid" />
             <Carousel.Caption>
                 <h3>WELCOME TO</h3>
-                <h1 >Sutish Tech Sollution</h1>
+                <h1 >Sutish Tech Solutions</h1>
                 <p>We Make Products that Unites,design technology and strategy.</p>
                 <button>Request Demo</button>
             </Carousel.Caption>

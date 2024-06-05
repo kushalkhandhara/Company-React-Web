@@ -1,0 +1,84 @@
+.footer
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top:56px;
+    background-color: #212121;
+    color: white;
+}
+
+.footer .footer-sec1 .footer-logo
+{
+    margin-bottom: 45px;
+}
+.footer .footer-sec1 .footer-logo img{
+    width: 110px;
+    height: 90px;
+    cursor: pointer;
+
+}
+.footer .footer-sec1 .footer-sec1-desc p
+{
+    font-weight: 485;
+    font-family: "Jost",sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.phone-icons
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: "Jost",sans-serif;
+    padding-top:  25px;
+    cursor: pointer;
+}
+.phone-icons span
+{
+    color: #6194FF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.social-icons
+{
+    color: #6194FF;
+}
+.footer .footer-sec2 h1
+{
+    color: white;
+    font-family: "Jost",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+.location
+{
+    display: flex;
+    gap: 25px;
+   margin-bottom: 20px;
+}
+.location span 
+{
+    line-height: 1.8;
+}
+.footer .footer-sec3 h1
+{
+    color: white;
+    font-family: "Jost",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+.quick-links .link
+{
+    display: flex;
+    gap: 120px;
+    color: #6194FF;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.copyright-section p
+{
+    color: #A9A9A9;
+    line-height: 1.9;
+}

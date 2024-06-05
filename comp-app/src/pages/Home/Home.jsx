@@ -1,5 +1,6 @@
 import Carousel1 from "../../components/Carousel/Carousel"
 import CountSection from "../../components/CountSection/CountSection"
+import Footer from "../../components/Footer/Footer"
 import Customer from "./Customer/Customer"
 import "./Home.css"
 import Section1 from "./Section/Section1"
@@ -13,6 +14,7 @@ export default function Home() {
       <Service/>
       <CountSection/>
       <Customer/>
+      <Footer/>
     </div>
   )
 }

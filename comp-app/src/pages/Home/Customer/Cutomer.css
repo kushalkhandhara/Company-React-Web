@@ -16,9 +16,27 @@
 .slick-slide >div
 {
     margin: 0 auto;
-    width: 400px;
+    width: 450px;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     padding: 20px;
     margin-top: 30px;
+    transition: 1s;
+}
+@media (max-width:900px)
+{
+    .slick-slide >div
+    {
+        margin: 0 auto;
+        width: 330px;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        padding: 20px;
+        margin-top: 30px;
+        transition: 1s;
+    }
+    .customer-section .customer-header h1
+    {
+        font-size: 24px;
+    }
 }

@@ -1,6 +1,7 @@
 import "./Cutomer.css"
 import Slider from "react-slick";
 
+import { IoIosStar } from "react-icons/io";
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,7 +12,7 @@ export default function Customer()
     const settings = {
         autoplay: true,
         autoplaySpeed: 1000,
-        dots: true,
+        dots: false,
         fade: true,
         infinite: true,
         speed: 500,
@@ -32,14 +33,29 @@ export default function Customer()
                     <p>
                         Working with Sutish is easy, and they have delivered that outcome we wanted.
                     </p>
+
                     <h6>S. Saifi</h6>
+                    <div className="stars">
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                    </div>
                 </div>
 
                 <div>
                     <p>
-                    We hire dedicated AI ML developers who are working with us in our R & D teams their quality and search skills are beyond the limits.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam vitae et quas doloremque? A animi asperiores eius sequi, fuga dolorem.
                     </p>
-                    <h6>Pratik Shukla</h6>
+                    <h6>Kushal Khandhara</h6>
+                    <div className="stars">
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                    </div>
                 </div>
 
                 <div>
@@ -47,12 +63,27 @@ export default function Customer()
                         Working with Sutish is easy, and they have delivered that outcome we wanted.
                     </p>
                     <h6>S. Saifi</h6>
+                    <div className="stars">
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                    </div>
                 </div>
                 <div>
                     <p>
                     We hire dedicated AI ML developers who are working with us in our R & D teams their quality and search skills are beyond the limits.
                     </p>
+
                     <h6>Pratik Shukla</h6>
+                    <div className="stars">
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                        <IoIosStar style={{color:"orange"}} />
+                    </div>
                 </div>
 
             </Slider>

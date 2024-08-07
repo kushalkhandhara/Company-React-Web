@@ -35,7 +35,8 @@ export default function Navbar1()
               <Nav className="ms-auto">
                 <Nav.Link className="me-2" as={Link} to="/">Home</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/about">About</Nav.Link>
-                <Nav.Link className="me-2" as={Link} to="/about">Contact</Nav.Link>
+                {/* <Nav.Link className="me-2" as={Link} to="/about">Contact</Nav.Link> */}
+                <Nav.Link className="me-2" as={Link} to="/expertise">Expertise</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/about">Career</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/about">Blog</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/about">Contact Us</Nav.Link>

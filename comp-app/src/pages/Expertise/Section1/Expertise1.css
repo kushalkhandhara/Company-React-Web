@@ -1,0 +1,32 @@
+.expertise1{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.expertise1 .expsection1 .expsection1-header
+{
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+.expertise1 .expsection1 .expsection1-header h2
+{
+    font-weight: 640;
+    color: rgb(86, 86, 86);
+    letter-spacing: 2px;
+
+}
+.expertise1 .expsection2
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+.expertise1 .expsection3
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 50px;
+}

@@ -1,0 +1,33 @@
+.about1{
+    width: 100%;
+    margin-top: 76px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+
+}
+.about1 .about1-desc{
+    width: 490px;
+    color: rgb(65, 65, 65);
+}
+.about1 .about1-desc p{
+    font-size: 16px;
+}
+.about1 .about2-img{
+    width: 400px;
+}
+@media (max-width: 900px) {
+    .about1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about1 .about1-desc{
+        width: 100%;
+        /* color: rgb(65, 65, 65); */
+    }
+    .about1 .about2-img{
+        width: 320px;
+    }
+}

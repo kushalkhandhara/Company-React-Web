@@ -1,0 +1,82 @@
+.career-form{
+    width: 100%;
+    margin-top: 90px;
+}
+.career-form .career-main{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.career-form .career-main .career-side1{
+    width: 500px;
+}
+.career-form .career-main .career-side1 img{
+    width: 480px;
+}
+.career-form .career-main .career-side2{
+    width: 510px;
+}
+.career-form .career-main .career-side2 h3{
+    color: rgb(0, 0, 122);
+    text-transform: capitalize;
+}
+.career-form .career-main .career-side2 form{
+    margin-top: 30px;
+}
+.career-form .career-main .career-side2 form .form-label{
+    font-size: 18px;
+}
+.career-form .career-main .career-side2 form .form-inp input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+}
+.career-form .career-main .career-side2 form .form-inp input[type="file"]
+{
+    background-color: white;
+}
+.career-form .career-main .career-side2 form .form-inp select{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+}
+.career-form .career-main .career-side2 form .form-data{
+    margin-top: 14px;
+}
+.career-form .career-main .career-side2 form .form-data .form-label{
+    padding-left: 6px;
+}
+.career-form .career-main .career-side2 form .form-submit{
+    margin-top: 20px;
+}
+.career-form .career-main .career-side2 form .form-submit button{
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(255, 170, 33);
+    border-radius: 12px;
+    color: white;
+}
+
+@media (max-width:900px) {
+    .career-form .career-main{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .career-form .career-main .career-side1{
+        width: 100%;
+    }
+    .career-form .career-main .career-side1 img{
+        width: 100%;
+    }
+    .career-form .career-main .career-side2{
+        width: 100%;
+    }
+}

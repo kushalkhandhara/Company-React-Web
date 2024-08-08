@@ -22,7 +22,7 @@
 }
 .heroImg .caption
 {
-    z-index: 100;
+    z-index: 10;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,6 +34,7 @@
 .heroImg .caption h2
 {
     font-size: 60px;
+    font-weight: bold;
 }
 @media(max-width:900px)
 {

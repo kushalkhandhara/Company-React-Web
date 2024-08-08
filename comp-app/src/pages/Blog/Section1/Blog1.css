@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+.blog1{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.blog1 .blog-main{
+    display: flex;
+    gap: 35px;
+}
+.blog1 .blog-main .blog-side1{
+    width: 730px;
+    background-color: white;
+    overflow: hidden;
+}
+.blog1 .blog-main .blog-side1 .blog-data img{
+    width: 730px;
+    height: 500px;
+    object-fit: cover;
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content{
+    padding: 24px;
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content .blog-header{
+    margin-top: 30px;
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content .blog-header h4{
+    font-weight: bold;
+    font-family: "Jost",sans-serif;
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content .blog-header h4 a {
+    color: rgb(60, 60, 60);
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content .blog-header h4 a:hover{
+    color: rgb(0, 102, 255);
+}
+.blog1 .blog-main .blog-side1 .blog-data .blog-content .blog-para p{
+    color: rgb(92, 92, 92);
+    font-size: 17px;
+}
+.blog1 .blog-main .blog-side2{
+    width: 350px;
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-count-header{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-count-header h5{
+    font-weight: 600;
+    font-family: "Jost",sans-serif;
+}
+
+
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    /* background-color: white; */
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side1{
+    width: 95px;
+    height: 90px;
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side1 img{
+    width: 95px;
+    height: 90px;
+    object-fit: cover;
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side2{
+    width: 210px;
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side2 .blog-counts-side2-header h5 a{
+    color: rgb(60, 60, 60);
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side2 .blog-counts-side2-header h5 a:hover{
+    color: rgb(0, 102, 255);
+}
+.blog1 .blog-main .blog-side2 .blog-count .blog-counts-main .blog-counts-side2 .blog-counts-side2-header h5{
+    font-weight: bold;
+    font-family: "Jost",sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width:900px) {
+    .blog1 .blog-main{
+        display: flex;
+        /* gap: 35px; */
+        flex-direction: column;
+    }
+    .blog1 .blog-main .blog-side1{
+        width: 100%;
+        /* background-color: white; */
+        /* overflow: hidden; */
+    }
+    .blog1 .blog-main .blog-side1 .blog-data img{
+        width: 100%;
+        height: 300px;
+        /* object-fit: cover; */
+    }
+
+}

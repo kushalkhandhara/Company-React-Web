@@ -1,0 +1,20 @@
+.career1{
+    margin-top: 76px;
+    width: 100%;
+    overflow: hidden;
+}
+.career1 .career1-header{
+    text-align: center;
+    color: rgb(0, 0, 92);
+}
+.career1 .career1-header span {
+    color: rgb(0, 118, 214);
+}
+.career1 .career1-cards{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 40px;
+    justify-content: center;
+
+}

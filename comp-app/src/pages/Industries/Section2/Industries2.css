@@ -1,0 +1,22 @@
+.industries2{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+}
+.industries2 .industries2-header h2{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(30, 30, 30);
+}
+
+.industries2 .industries-det{
+    margin-top: 20px;
+}
+.industries2 .industries-det .row .col-sm-4 svg{
+    color: rgb(0, 110, 255);
+}
+.industries2 .industries-det .row .col-sm-4 span{
+    padding-left:14px;
+    text-transform: capitalize;
+    font-size: 18px;
+}

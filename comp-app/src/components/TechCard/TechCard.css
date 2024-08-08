@@ -5,6 +5,10 @@
     border-radius: 12px;
     position: relative;
 }
+.techcard:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.01);
+}
 .techcard .techicon{
     display: flex;
     justify-content: center;

@@ -35,18 +35,17 @@ export default function Navbar1()
               <Nav className="ms-auto">
                 <Nav.Link className="me-2" as={Link} to="/">Home</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/about">About</Nav.Link>
-                {/* <Nav.Link className="me-2" as={Link} to="/about">Contact</Nav.Link> */}
                 <Nav.Link className="me-2" as={Link} to="/expertise">Expertise</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/industries">Industries</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/career">Career</Nav.Link>
                 <Nav.Link className="me-2" as={Link} to="/blog">Blog</Nav.Link>
-                <Nav.Link className="me-2" as={Link} to="/about">Contact Us</Nav.Link>
+                <Nav.Link className="me-2" as={Link} to="/contact">Contact Us</Nav.Link>
                 <div className="d-flex align-items-center">
                   <div className="search-icon me-3">
                     <CiSearch size={30} />
                   </div>
                   <div className="navbar-btn">
-                    <button>Hire Developer</button>
+                    <button><Link to="/contact" style={{color: "white"}} >Hire Developer</Link></button>
                   </div>
 
                 </div>

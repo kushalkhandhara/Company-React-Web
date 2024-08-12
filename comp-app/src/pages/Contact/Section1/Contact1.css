@@ -1,0 +1,129 @@
+.contact1{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 76px;
+}
+.contact1 .contact1-header{
+
+    font-family: "Jost",sans-serif;
+    color: rgb(65, 60, 60);
+}
+.contact1 .contact1-header h2{
+    font-weight: bold;
+    text-align: center;
+}
+.contact1 .contact1-main{
+    display: flex;
+    align-items: center;
+}
+.contact1 .contact1-main .contact1-side1{
+    width: 500px;
+    margin-top: 40px;
+}
+.contact1 .contact1-main .contact1-side1 .contact1-side1-header h4{
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+    margin-bottom: 28px;
+}
+.contact1 .contact1-main .contact1-side1 h5{
+    color: rgb(55, 55, 55);
+    font-weight: 620;
+}
+.contact1 .contact1-main .contact1-side1 p{
+    color: gray;
+}
+.contact1 .contact1-main .contact1-side2{
+    width: 500px;
+    margin-top: 40px;
+}
+.contact1 .contact1-main .contact1-side2 h6{
+    text-align: right;
+    color: rgb(44, 44, 44);
+}
+.contact1 .contact1-main .contact1-side2 form{
+    margin-top: 30px;
+    padding-left: 120px;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data{
+    padding-top: 15px;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data .form-label{
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data .form-inp input{
+    width: 100%;
+    border: 1px solid rgb(156, 156, 156);
+    outline: none;
+    padding: 8px;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data .form-inp textarea{
+    width: 100%;
+    border: 1px solid rgb(156, 156, 156);
+    outline: none;
+    padding: 8px;
+    resize: none;
+    height: 100px;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:not(:nth-child(6)){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #0c66ed;
+    border-radius: 50%;
+    transition: .6s ease;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(6){
+    position: relative;
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(1){
+    transform: translate(-3.3em, -4em);
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(2){
+    transform: translate(-6em, 1.3em);
+
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(3){
+    transform: translate(-.2em, 1.8em);
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(4){
+    transform: translate(3.5em, 1.4em);
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button span:nth-child(5){
+    transform: translate(3.5em, -3.8em);
+}
+.contact1 .contact1-main .contact1-side2 form .form-data button:hover span:not(:nth-child(6)){
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+
+}
+
+@media (max-width:900px) {
+    .contact1 .contact1-main{
+        flex-direction: column;
+    }
+    .contact1 .contact1-main .contact1-side1{
+        width: 100%;
+    }
+    .contact1 .contact1-main .contact1-side2{
+        width: 100%;
+    }
+    .contact1 .contact1-main .contact1-side2 form{
+        padding-left: 0px;
+    }
+}

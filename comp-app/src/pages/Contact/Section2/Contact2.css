@@ -1,0 +1,60 @@
+.contact2{
+    margin-top: 96px;
+    width: 100%;
+    overflow: hidden;
+}
+.contact2 .contact2-main{
+    display: flex;
+}
+.contact2 .contact2-main .contact2-side1{
+    overflow: hidden;
+    flex: 1;
+    width: 400px;
+    height: 350px;
+}
+.contact2 .contact2-main .contact2-side1 iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-meet{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-header{
+    text-align: left;
+    font-family: "Jost";
+}
+.contact2 .contact2-main .contact2-side1 .contact2-det{
+    text-align: left;
+    margin-top: 30px;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-det .contact2-det-side1{
+    margin-top: 10px;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-det .contact2-det-side1 span svg{
+    padding-right: 15px;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-business{
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-business .contact2-header{
+    text-align: left;
+    font-family: "Jost";
+    color: white;
+}
+.contact2 .contact2-main .contact2-side1 .contact2-business .contact2-para{
+    margin-top: 30px;
+    color: white;
+}
+@media (max-width:900px){
+    .contact2 .contact2-main{
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+}

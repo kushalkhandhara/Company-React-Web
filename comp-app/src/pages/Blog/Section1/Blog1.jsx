@@ -13,7 +13,7 @@ export default function Blog1() {
                     </div>
                     <div className="blog-content">
                         <div className="blog-header">
-                            <h4><Link> 2022 Latest Mobile App Development Trends</Link></h4>
+                            <h4><Link to="/blog/1"> 2022 Latest Mobile App Development Trends</Link></h4>
                         </div>
                         <div className="blog-para">
                             <p>
@@ -36,7 +36,7 @@ export default function Blog1() {
                         </div>
                         <div className="blog-counts-side2">
                             <div className="blog-counts-side2-header">
-                                <h5><Link> 2022 Latest Mobile App Development Trends</Link></h5>
+                                <h5><Link to="/blog/1"> 2022 Latest Mobile App Development Trends</Link></h5>
                             </div>
                         </div>
                     </div>

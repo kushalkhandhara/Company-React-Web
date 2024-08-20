@@ -1,9 +1,35 @@
+import { useState } from "react";
 import "./Contact1.css";
+import axios from "axios";
 
 export default function Contact1() {
-    const handleSubmit = (e)=>{ 
-        e.preventDefault();
+
+
+    const [inputs, setInputs] = useState({});
+
+    const handleChange = (event) => {
+        const name = event.target.name;
+        const value = event.target.value;
+        setInputs(values => ({...values, [name]: value}))
     }
+
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await axios.post("http://localhost:8801/api/msg/msgClient", inputs);
+          console.log(response.data);
+          setInputs({
+            firstname: '',
+            lastname: '',
+            compname: '',
+            comp_no: '',
+            comp_msg: ''
+        });
+        } catch (err) {
+          console.error(err);
+        }
+      };
   return (
     <div className="contact1 container">
         <div className="contact1-header">
@@ -38,7 +64,7 @@ export default function Contact1() {
             </div>
             <div className="contact1-side2">
                 <h6>Please Note : All Fields Are Required</h6>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} autoComplete="off">
                     
                     <div className="form-data">
                         <div className="form-label">
@@ -47,7 +73,7 @@ export default function Contact1() {
                             </label>
                         </div>
                         <div className="form-inp">
-                            <input type="text" name="firstname" id="firstname" />
+                            <input type="text" name="firstname" id="firstname" onChange={handleChange} value={inputs.firstname || ""} />
                         </div>
                     </div>
                     <div className="form-data">
@@ -56,38 +82,38 @@ export default function Contact1() {
                                 Last Name
                             </label>
                         </div>
-                        <div className="form-inp">
-                            <input type="text" name="lastname" id="lastname" />
+                        <div className="form-inp"> 
+                            <input type="text" name="lastname" id="lastname" onChange={handleChange} value={inputs.lastname || ""} />
                         </div>
                     </div>
                     <div className="form-data">
                         <div className="form-label">
-                            <label htmlFor="compname">
+                            <label htmlFor="comp_name">
                                 Company Name
                             </label>
                         </div>
                         <div className="form-inp">
-                            <input type="text" name="compname" id="compname" />
+                            <input type="text" name="comp_name" id="comp_name" onChange={handleChange} value={inputs.comp_name || ""} />
                         </div>
                     </div>
                     <div className="form-data">
                         <div className="form-label">
-                            <label htmlFor="compphone">
+                            <label htmlFor="comp_no">
                                 Company Phone No.
                             </label>
                         </div>
                         <div className="form-inp">
-                            <input type="text" name="compphone" id="compphone" />
+                            <input type="text" name="comp_no" id="comp_no" onChange={handleChange} value={inputs.comp_no||""} />
                         </div>
                     </div>
                     <div className="form-data">
                         <div className="form-label">
-                            <label htmlFor="compmessage">
+                            <label htmlFor="comp_msg">
                                 Message
                             </label>
                         </div>
                         <div className="form-inp">
-                            <textarea rows="20" cols="20" type="text" name="compmessage" id="compmessage" />
+                            <textarea rows="20" cols="20" type="text" name="comp_msg" id="comp_msg" onChange={handleChange} value={inputs.comp_msg||""} />
                         </div>
                     </div>
                     <div className="form-data">

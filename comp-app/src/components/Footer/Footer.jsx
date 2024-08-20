@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -82,19 +83,19 @@ export default function Footer() {
                     <h1>Quick Links</h1>
                     <div className="quick-links">
                         <div className="link" >
-                            <span>Home</span>
-                            <span>About Us</span>
+                            <span><Link to="/">Home</Link></span>
+                            <span><Link to="/about">About Us</Link></span>
                         </div>
                         <div className="link" >
-                            <span>Career</span>
-                            <span>Expenses</span>
+                            <span><Link to="/career">Career</Link></span>
+                            <span><Link to="/expertise">Expertise</Link></span>
                         </div>
                         <div className="link" >
-                            <span>Industries</span>
-                            <span>Blog</span>
+                            <span><Link to="/industries">Industries</Link></span>
+                            <span><Link to="/blog">Blog</Link></span>
                         </div>
                         <div className="link" >
-                            <span>Conatact Us</span>
+                            <span><Link to="/contact">Contact Us</Link></span>
                         </div>
                     </div>
 

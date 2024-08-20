@@ -9,7 +9,7 @@ export default function Carousel1() {
   return (
     <>
     <div className="carousels">
-    <Carousel fade indicators={true} controls={false}>
+    <Carousel fade indicators={false} controls={false}>
       <Carousel.Item>
         
             <img src={FirstImage} alt="" className="carousel-img img-fluid" />
